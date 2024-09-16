@@ -7,13 +7,15 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class DataTypesTest {
-
+    public static void main(String[] args) {
+        largeSumTest();
+    }
     @Test(timeout = 1000)
     /**
      * Test that DataTypes.sum returns the correct value for
      * the sum from 1 to 1 million.
      */
-    public void largeSumTest() {
+    public static void largeSumTest() {
 
         // You put an L at the end to indicate it is a long.
         // try removing the L and you'll see that you get an error
